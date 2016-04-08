@@ -45,6 +45,9 @@ void setup() {
 	// start-up the bridge
 	Bridge.begin();
 
+  // strar-up the console
+  Console.begin();
+
 	// configure the spacebrew object to print status messages to serial
 	sb.verbose(true);
 
